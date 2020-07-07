@@ -6,7 +6,7 @@ import pl.teessoft.addingnumbers.domain.ports.JavaRandomRepository;
 import java.util.Random;
 
 @Component
-public class JavaRandom implements JavaRandomRepository {
+class JavaRandom implements JavaRandomRepository {
 
     @Override
     public int get() {

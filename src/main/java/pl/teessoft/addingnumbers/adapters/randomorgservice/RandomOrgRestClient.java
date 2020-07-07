@@ -10,7 +10,7 @@ import java.util.Random;
 
 @Component
 @RequiredArgsConstructor
-public class RandomOrgRestClient implements RandomOrgRepository {
+class RandomOrgRestClient implements RandomOrgRepository {
 
     private final RandomOrgClient randomOrgClient;
     private final CircuitBreakerFactory circuitBreakerFactory;
